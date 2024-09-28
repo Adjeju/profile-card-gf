@@ -14,16 +14,16 @@ export default function Home() {
       <div className="mt-[200px] w-[340px] bg-white rounded-lg shadow px-4 py-6 flex flex-col gap-10">
         <div className="flex flex-col items-center justify-center gap-6">
           <Image src={profile} alt="profile" width={64} height={64} />
-          <div className="flex flex-col items-center justify-center gap-2">
+          <div className="flex flex-col items-center justify-center gap-1">
             <h1 className="text-xl font-medium">Sarah Dole</h1>
             <p className="text-sm text-neutral-500">
               Front End Engineer @ Microsoft
             </p>
-            <p className="text-center text-neutral-500 text-base">
-              I turn coffee into bugs which are fixed by someone else. Certified
-              Stack Overflow and ChatGPT developer.
-            </p>
           </div>
+          <p className="text-center text-neutral-500 text-base">
+            I turn coffee into bugs which are fixed by someone else. Certified
+            Stack Overflow and ChatGPT developer.
+          </p>
         </div>
         <div className="flex flex-col items-center justify-center gap-6">
           <button
